@@ -20,7 +20,7 @@
       </div>
     </nav>
     <header>
-      <div class="section-container header-container">
+      <div class="section-container header-container" id="home">
         <p><span>Hello</span>I'm</p>
         <h1>Manish Agrawat</h1>
         <h2 class="section-title">Frontend <span>Developer</span></h2>
@@ -32,13 +32,8 @@
           satisfaction.
         </p>
         <div class="action-btns">
-          <button class="btn">Say Hello</button>
-          <a href="#" class="video">
-            <div class="play">
-              <i class="ri-play-fill"></i>
-            </div>
-            <span>Watch My Videos</span>
-          </a>
+          <a href="mailto:manishagrawat2002@gmail.com" class="btn">Say Hello</a>
+          <a href="Manish Agrawat.pdf" class="btn"> Download CV</a>
         </div>
       </div>
     </header>
@@ -63,7 +58,7 @@
             <br />Performance Optimization: Fast-loading, accessible, and
             SEO-friendly websites <br />Version Control: Git, GitHub
           </p>
-          <button class="btn">More About</button>
+          <a href="#home" class="btn">More About</a>
         </div>
       </div>
     </section>
@@ -75,32 +70,29 @@
         <div class="service-grid">
           <div class="service-card">
             <i class="ri-smartphone-line"></i>
-            <h4>Web Design</h4>
+            <h4>Frontend Development</h4>
             <p>
-              We are dedicated to providing high-quality web designe services
-              that are tailored to meet the specific needs of our clients.
+              I specialize in creating visually appealing and user-friendly
+              interfaces that enhance user experience and bring designs to life.
             </p>
-            <a href="#" class="read-more">Read more...</a>
           </div>
 
           <div class="service-card">
             <i class="ri-code-s-slash-line"></i>
-            <h4>Web Development</h4>
+            <h4>Backend Development</h4>
             <p>
-              We are dedicated to providing high-quality web designe services
-              that are tailored to meet the specific needs of our clients.
+              I focus on building robust and scalable backend systems to ensure
+              smooth functionality and secure data management.
             </p>
-            <a href="#" class="read-more">Read more...</a>
           </div>
 
           <div class="service-card">
             <i class="ri-edit-2-line"></i>
-            <h4>Creative Design</h4>
+            <h4>Fullstack Development</h4>
             <p>
-              We are dedicated to providing high-quality web designe services
-              that are tailored to meet the specific needs of our clients.
+              Combining frontend and backend expertise, I deliver end-to-end web
+              solutions that meet your business needs.
             </p>
-            <a href="#" class="read-more">Read more...</a>
           </div>
         </div>
       </div>
@@ -108,26 +100,47 @@
 
     <section class="project">
       <div class="section-container project-container">
-        <p class="section-subtitle">Portfolio</p>
-        <h2 class="section-title"><span>Latest</span></h2>
+        <p class="section-subtitle">Projects</p>
+        <h2 class="section-title"><span>My Latest Projects</span></h2>
         <div class="project-grid">
           <div class="project-card">
-            <img src="assets/project-1.png" alt="" />
+            <a
+              href="https://6769596316d2693b34b11a24--rococo-queijadas-849958.netlify.app/"
+              ><img src="assets/project-1.png" alt=""
+            /></a>
           </div>
           <div class="project-card">
-            <img src="assets/project-2.png" alt="" />
+            <a
+              href="https://6769853c6ec7d87f748065db--randomeimagesearch.netlify.app/"
+            >
+              <img src="assets/project-4.png" alt=""
+            /></a>
           </div>
           <div class="project-card">
-            <img src="assets/project-3.png" alt="" />
+            <a
+              href="https://676988f66ec7d884b78064b6--racipesearch.netlify.app/"
+              ><img src="assets/project-2.png" alt=""
+            /></a>
           </div>
           <div class="project-card">
-            <img src="assets/project-4.png" alt="" />
+            <a href="https://tastyburgerbymanishagrawat.netlify.app/"
+              ><img src="assets/project-3.png" alt=""
+            /></a>
           </div>
           <div class="project-card">
-            <img src="assets/project-5.png" alt="" />
+            <a href="https://foodandrestaurantweb.netlify.app/"
+              ><img src="assets/project-5.png" alt=""
+            /></a>
           </div>
           <div class="project-card">
-            <img src="assets/project-6.png" alt="" />
+            <a href="https://verdant-piroshki-1883ca.netlify.app/"
+              ><img src="assets/project-6.png" alt=""
+            /></a>
+          </div>
+          <div class="project-card">
+            <a href="https://manishprofilebyme.netlify.app/"
+              ><img src="assets/project-7.png" alt=""
+            /></a>
           </div>
         </div>
       </div>
@@ -145,6 +158,9 @@
               address,number and message, and I will get back to you as soon as
               possible.
             </p>
+            <p>Manish Agrawat</p>
+            <p>9996204261</p>
+            <p>manishagrawat2002@gmail.com</p>
             <p>Guhna Sonipat</p>
             <p>Haryana</p>
             <p>131408</p>
@@ -155,14 +171,29 @@
             <a href="https://github.com/Manish-Agrawat" class="icon"
               ><i class="ri-github-fill"></i
             ></a>
-            <a href="https://www.linkedin.com/in/manish-agrawat" class="icon"><i class="ri-linkedin-fill"></i></a>
+            <a href="https://www.linkedin.com/in/manish-agrawat" class="icon"
+              ><i class="ri-linkedin-fill"></i
+            ></a>
           </div>
         </div>
-        <form action="" class="footer-form">
-          <input type="text" placeholder="Your name" />
-          <input type="email" placeholder="Your email address" />
-          <input type="number" placeholder="Your phone number" />
-          <textarea cols="30" rows="10" placeholder="Your idea"></textarea>
+        <form action="" class="footer-form" id="contact-form">
+          <input type="text" id="user_name" placeholder="Your name" />
+          <input
+            type="email"
+            id="user_email"
+            placeholder="Your email address"
+          />
+          <input
+            type="number"
+            id="user_phone"
+            placeholder="Your phone number"
+          />
+          <textarea
+            id="user_message"
+            cols="30"
+            rows="10"
+            placeholder="Your idea"
+          ></textarea>
           <button type="submit" class="btn">Send message</button>
         </form>
       </div>
